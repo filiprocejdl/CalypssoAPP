@@ -128,4 +128,10 @@
       <Name>CalypssoAPP</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\menu_open.png" />
+  </ItemGroup>
 </Project>

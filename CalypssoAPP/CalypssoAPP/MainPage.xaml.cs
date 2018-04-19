@@ -12,6 +12,7 @@ namespace CalypssoAPP
 		public MainPage()
 		{
 			InitializeComponent();
+
 		}
 	}
 }

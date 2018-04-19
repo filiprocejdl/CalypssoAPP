@@ -4,8 +4,28 @@
              xmlns:local="clr-namespace:CalypssoAPP"
              x:Class="CalypssoAPP.MainPage">
 
-	<Label Text="Welcome!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <RelativeLayout BackgroundColor="Black">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="menu_open.png"  Grid.Column="0" Grid.Row="0" Margin="0,20,0,0" HeightRequest="75" WidthRequest="75" ></Image>
+
+            <Image Source="logomain.png"  Grid.Column="3" Grid.Row="0" Margin="0,20,0,0"  HeightRequest="75" WidthRequest="265" ></Image>
+        </Grid>
+
+        
+        
+    </RelativeLayout>
+	
 
 </ContentPage>
