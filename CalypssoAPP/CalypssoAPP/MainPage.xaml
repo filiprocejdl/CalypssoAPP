@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:CalypssoAPP"
              x:Class="CalypssoAPP.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label Text="Welcome!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
