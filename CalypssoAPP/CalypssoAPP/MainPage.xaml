@@ -4,38 +4,75 @@
              xmlns:local="clr-namespace:CalypssoAPP"
              x:Class="CalypssoAPP.MainPage">
 
-    <RelativeLayout BackgroundColor="Black">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="100" />
-                <RowDefinition Height="20" />
-                <RowDefinition Height="5" />
-                <RowDefinition Height="200"/>
-                <RowDefinition Height="5" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="50" />
-                <ColumnDefinition Width="auto" />
-            </Grid.ColumnDefinitions>
+    <ScrollView>
+        <RelativeLayout BackgroundColor="Black">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="100" ></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
 
-            <Frame Margin="0,0,0,0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange"></Frame>
+                <Grid Grid.Row="3" Grid.ColumnSpan="14">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
 
-            <Frame Margin="0,0,0,0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Red"></Frame>
+                    <Button Grid.Row="0" Grid.Column="0" Text="XDDDD"></Button>
+                </Grid>
+                
 
-            <Frame Margin="0,0,0,0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange"></Frame>
-            
-            
+                <Image Source="menu_open.png"  Grid.Column="0" Grid.Row="0" Margin="0,20,0,0" HeightRequest="75" WidthRequest="75" ></Image>
 
-            <Image Source="menu_open.png"  Grid.Column="0" Grid.Row="0" Margin="0,20,0,0" HeightRequest="75" WidthRequest="75" ></Image>
+                <Image Source="logomain.png"  Grid.Column="3" Grid.Row="0" Margin="0,20,0,0"  HeightRequest="75" WidthRequest="265" ></Image>
 
-            <Image Source="logomain.png"  Grid.Column="3" Grid.Row="0" Margin="0,20,0,0"  HeightRequest="75" WidthRequest="265" ></Image>
-        </Grid>
+                <Frame Margin="0,0,0,0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange" ></Frame>
 
-        
-        
-    </RelativeLayout>
-	
+                <Frame Margin="0,0,0,0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Red"></Frame>
+    
+                <Frame Margin="0,0,0,0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange"></Frame>
+
+                <Frame Margin="0,0,0,0" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Red"></Frame>
+
+                <Frame Margin="0,0,0,0" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange"></Frame>
+                
+                <Frame Margin="0,0,0,0" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Red"></Frame>
+
+                <Frame Margin="0,0,0,0" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange"></Frame>
+
+                <Frame Margin="0,0,0,0" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Red"></Frame>
+
+                <Frame Margin="0,0,0,0" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="14" BackgroundColor="Orange"></Frame>
+
+                <Button Margin="0,0,0,0" BackgroundColor="Transparent" TextColor="White" Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="14" Text="Zobrazit starší akce." ></Button>
+
+
+
+
+            </Grid>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
 
 </ContentPage>
