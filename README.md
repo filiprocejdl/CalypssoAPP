@@ -1,6 +1,10 @@
 # CalypssoAPP
 Mobile application for Calypso club situated in Czech Republic.
 
+## Download
+
+Download from [GooglePlay](https://play.google.com/store/apps).
+
 ## Built With
 
 * [Xamarin](https://www.xamarin.com/) - Cross-platform development software
