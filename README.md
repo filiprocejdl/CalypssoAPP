@@ -7,7 +7,7 @@ Download from [GooglePlay](https://play.google.com/store/apps).
 
 ## Preview
 
-![Screenshot](screenshots/Calypsso-APP.png)
+![Screenshot](screenshots/Calyspsso-APP.png)
 
 ## Built With
 
