@@ -5,6 +5,12 @@ Mobile application for Calypso club situated in Czech Republic.
 
 Download from [GooglePlay](https://play.google.com/store/apps).
 
+## Preview
+
+![Screenshot](screenshots/1.png)
+![Screenshot](screenshots/1.png)
+![Screenshot](screenshots/1.png)
+
 ## Built With
 
 * [Xamarin](https://www.xamarin.com/) - Cross-platform development software
